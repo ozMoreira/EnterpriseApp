@@ -15,7 +15,7 @@ ds_genero varchar2(20)
 
 Sequence: SQ_TB_MUSICA
 
-Exercicio:
+Exercicio:"
 
 TB_ARTISTA
 -----
