@@ -1,0 +1,36 @@
+Banco:
+
+TB_MUSICA
+-----
+cd_musica number(10,0) (PK) not null
+nm_musica varchar2(50) not null
+dt_lancamento date not null
+vl_duracao float
+nm_album varchar2(40) not null
+st_instrumental number
+dt_cadastro date
+vl_faturamento number(11,2)
+fl_capa_album blob
+ds_genero varchar2(20) 
+
+Sequence: SQ_TB_MUSICA
+
+Exercicio:
+
+TB_ARTISTA
+-----
+cd_artista number(10,0) PK not null
+nm_artista varchar2(60) not null
+dt_nascimento date
+fl_foto blob
+ds_genero_musical varchar2(40) not null (Enum no Java)
+st_cantor number(1,0) (Boolean no java)
+st_musico number(1,0) (Boolean no java)
+nr_musicas number(10,0)
+
+Atributo Integer idade que só existe no Java
+
+Sequence: SQ_TB_ARTISTA
+
+
+
